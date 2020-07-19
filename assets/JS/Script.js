@@ -1,4 +1,4 @@
-[
+const MeusDados = [
     {
     "nome": "Fernando",
     "Temperatura do quarto": 19,
@@ -264,3 +264,31 @@
   
   
  ]
+ function CriarGrafico(nome,dadosGrafico)
+ {
+     let graf = document.getElementById(nome).getContext('2d');
+     let chart = new chart(graf,{
+          //tipo do grafico 
+        type: 'line',
+
+        // paramentros do grafico no qual eu copio e colo do site
+        data: {
+            labels: dadosGrafico['eixoX'],
+            datasets: [{
+                label: dadosGrafico.indicar_local,
+                backgroundColor: 'rgb(255, 99, 132)',
+                borderColor: 'rgb(255, 99, 132)',
+                data: [0, 10, 5, 2, 20, 30, 45]
+            }]
+        },
+
+        // opções de configurações 
+        options: {}
+    });
+}
+let Teste = [
+]
+    MeusDados.forEach(element => {if (element.Data == "13.07.2020"){
+        Teste.push(element)
+    } } )
+    console.log(Teste)
