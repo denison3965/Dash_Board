@@ -263,11 +263,7 @@ const meusDados = [
       }
 ]
 
-let fernando = []
 
-fernando = criarDadosDoPaciente("Fernando", 6 )
-
-console.log(fernando)
 
 
 //Metodo para filtra meus dados que vem dos sensores e me retornar os dados que eu preciso de cada paciênte que eu quiser
@@ -370,8 +366,42 @@ function criarDadosDoPaciente (nome, dado)
 
     
 
-
 }
+
+let dados = []
+let nome_paciente =  "Fernando"
+
+dados_temp = criarDadosDoPaciente(nome_paciente, 2)
+dados_datas = criarDadosDoPaciente(nome_paciente, 6)
+
+CriarGraficos(nome_paciente, dados_datas, dados_temp)
+
+function CriarGraficos(nome_paciente, data, dados_do_grafico) 
+{
+    var ctx = document.getElementById('myChart').getContext('2d');
+    var chart = new Chart(ctx, {
+        // The type of chart we want to create
+        type: 'bar',
+    
+        // The data for our dataset
+        data: {
+            labels: data,
+            datasets: [{
+                label: nome_paciente,
+                backgroundColor: 'rgb(255, 99, 132)',
+                borderColor: 'rgb(255, 99, 132)',
+                data: dados_do_grafico
+            }]
+        },
+    
+        // Configuration options go here
+        options: {}
+    });
+}
+
+  
+
+
 
 
 
