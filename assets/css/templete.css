@@ -448,12 +448,15 @@ nav ul{
 }
 .informacoes_paciente{
 	background-color: #FFFFFF;
-	width: 48%;
+	width: 45%;
 	margin-top: 20px;
 	margin-right: 15px;
 	min-height: 250px;
 	margin-bottom: 14px;
-    box-shadow: 3px 3px #c5c5c5;
+	box-shadow: 3px 3px #c5c5c5;
+	padding: 10px;
+	border: 1px solid rgb(212, 212, 212);
+	border-radius: 5px;
 }
 .pai3{
 	width: 100%;
@@ -466,7 +469,10 @@ nav ul{
 	margin-top: 10px;
 	margin-left: 10px;
 	padding: 15px;
-	border: 1px solid black;
+	border: 1px solid gray;
+	border-radius: 10px;
+	box-shadow: 2px 2px #c5c5c5;
+
 }
 .monitoramento{
 	width: 35%;
@@ -481,49 +487,76 @@ nav ul{
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
+.dadosPessoais_2{
+	width: 100%;
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+}
 .nomeDoPaciente{
 	width: 55%;
 	min-height: 25px;
-	margin-top: 5px;
+	margin-top: 25px;
 	font-size: 15px;
 }
 .idade{
 	width: 45%;
 	min-height: 25px;
-	margin-top: 5px;
+	margin-top: 25px;
 	font-size: 15px;
 	text-align: center;
+}
+.idade_2{
+	width: 45%;
+	min-height: 25px;
+	margin-top: 25px;
+	font-size: 15px;
+
 }
 .RG{
 	width: 65%;
 	min-height: 25px;
-	margin-top: 5px;
+	margin-top: 25px;
 	font-size: 15px;
 }
 .cor{
 	width: 35%;
 	min-height: 25px;
-	margin-top: 5px;
+	margin-top: 25px;
 	font-size: 15px;
 	text-align: center;
+}
+.cor_2{
+	width: 35%;
+	min-height: 25px;
+	margin-top: 25px;
+	font-size: 15px;
+
 }
 .Telefone{
 	width: 50%;
 	min-height: 25px;
-	margin-top: 5px;
+	margin-top: 25px;
 	font-size: 15px;
 }
 .sexo{
 	width: 50%;
 	min-height: 25px;
-	margin-top: 5px;
+	margin-top: 25px;
 	font-size: 15px;
 	text-align: center;
+}
+.sexo_2{
+	width: 50%;
+	min-height: 25px;
+	margin-top: 25px;
+	font-size: 15px;
+
 }
 .nivel_gravidade{
 	width: 100%;
 	height: 50px;
-	margin-top: 5px;
+	margin-top: 25px;
 	display: flex;
 	align-items: flex-end;
 }
@@ -541,6 +574,8 @@ nav ul{
 	height: 10px;
 	margin-left: 10px;
 	margin-bottom: 5px;
+	border: 1px solid black;
+	border-radius: 5px;
 }
 .amarelo{
 	background-color: #FFFF08;
@@ -548,6 +583,8 @@ nav ul{
 	height: 10px;
 	margin-left: 10px;
 	margin-bottom: 5px;
+	border: 1px solid black;
+	border-radius: 5px;
 }
 .vermelho{
 	background-color: #FE0000;
@@ -555,6 +592,8 @@ nav ul{
 	height: 10px;
 	margin-left: 10px;
 	margin-bottom: 5px;
+	border: 1px solid black;
+	border-radius: 5px;
 }
 .saberMais{
 	background-color: tomato;
@@ -565,38 +604,14 @@ nav ul{
 
 
 .btn{
-	position: relative;
-	display: block;
-	color: black;
-	font-size: 14px;
-	font-family: "montserrat";
-	text-decoration: none;
-	border: 2px solid cornflowerblue;
-	text-transform: uppercase;
-	overflow: hidden;
-	transition: 1s all ease;
-	height: 22px;
-	width: 139px;
-  }
-  .btn::before{
-	background: #39AAE1;
-	content: "";
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	z-index: -1;
-	transition: all 0.6s ease;
+	border: 1px solid blue;
+	padding:5px;
+	border-radius:5px;
+	background-color: #39AAE1;
+	color: white;
 
   }
-  .btn3::before{
-	width: 100%;
-	height: 0%;
-	transform: translate(-50%,-50%) rotate(45deg);
+  .btn:hover {
+	background-color: darkblue;
   }
-  .btn3:hover::before{
-	height: 600%;
-  }
-  .btn3:hover{
-	  color: #fff;
-  }
+  
