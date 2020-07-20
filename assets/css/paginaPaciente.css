@@ -14,6 +14,10 @@
     margin: auto;
 	border-radius: 10px;
 	margin-top: 25px;
+	line-height: 30px;
+	padding-left: 10px;
+	font-size:25px;
+	color: #575757;
 }
 
 .informacao_paciente{
@@ -38,29 +42,55 @@
 	border: 1px solid #c5c5c5;
 	border-radius: 5px;
 	box-shadow: 3px 3px #c5c5c5;
+	margin-bottom: 20px;
 }
 .grafico2{
-	background-color: pink;
+	background-color: #FFFFFF;
 	width: 100%;
 	min-height: 250px;
-	margin-top: 20px;
+	border: 1px solid #c5c5c5;
+	border-radius: 5px;
+	box-shadow: 3px 3px #c5c5c5;
+	margin-bottom: 20px;
 }
 .grafico3{
-	background-color: salmon;
+	background-color: #FFFFFF;
 	width: 100%;
 	min-height: 250px;
-	margin-top: 20px;
+	border: 1px solid #c5c5c5;
+	border-radius: 5px;
+	box-shadow: 3px 3px #c5c5c5;
+	margin-bottom: 20px;
 }
 .grafico4{
-	background-color: springgreen;
+	background-color: #FFFFFF;
 	width: 100%;
 	min-height: 250px;
-	margin-top: 20px;
+	border: 1px solid #c5c5c5;
+	border-radius: 5px;
+	box-shadow: 3px 3px #c5c5c5;
+	margin-bottom: 20px;
 }
 .grafico5{
-    background-color: tomato;
-    width: 100%;
+	background-color: #FFFFFF;
+	width: 100%;
 	min-height: 250px;
-	margin-top: 20px;
-	margin-bottom: 25px;
+	border: 1px solid #c5c5c5;
+	border-radius: 5px;
+	box-shadow: 3px 3px #c5c5c5;
+	margin-bottom: 20px;
+}
+@media screen and (max-width: 1100px)
+{
+	.corpoDois{
+		flex-direction: column;
+	}
+	.graficoS{
+		flex-direction: row;
+		flex-wrap: wrap;
+		width: auto;
+	}
+	.corpo{
+		width: 90%;
+	}
 }
