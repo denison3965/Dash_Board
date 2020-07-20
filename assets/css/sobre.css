@@ -1,63 +1,68 @@
 #sobre{
     text-align: center;
-    /* background-color: #e2e2e2; */
 }
 #sobre_deni{
-    background: #B0E0E6; 
+    background: #ffffff; 
     border-radius: 6px; 
-    padding: 15px; 
-    color: rgb(8, 8, 8); 
-    border: none; 
-    font-size: 16px;
+    padding: 15px;
+    cursor: pointer; 
+    font-size: 20px;
     margin-left: 15%;
     margin-right: 15%;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px #c5c5c5;
 }
 
 #sobre_anna{
-    background: #FFC0CB;
+    background:  #ffffff;
      border-radius: 6px; 
      padding: 15px; 
      cursor: pointer; 
-     color: #000000; 
-     border: none; 
-     font-size: 16px; 
+     font-size: 20px; 
      margin-left: 15%; 
      margin-right: 15%;
+     margin-bottom: 10px;
+     box-shadow: 3px 3px #c5c5c5;
 }
 
 #sobre_felipe{    
-    background:#5F9EA0;
+    background: #ffffff;
     border-radius: 6px; 
     padding: 15px; 
     cursor: pointer; 
-    color: #000000; 
-    border: none; 
-    font-size: 16px; 
+    font-size: 20px; 
     margin-left: 15%; 
     margin-right: 15%;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px #c5c5c5;
 }
 #sobre_gui{
-    background: #F5DEB3;
+    background:  #ffffff;
     border-radius: 6px; 
     padding: 15px; 
     cursor: pointer; 
-    color: #000000; 
-    border: none; 
-    font-size: 16px; 
+    font-size: 20px; 
     margin-left: 15%; 
     margin-right: 15%;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px #c5c5c5;
 }
 #sobre_caio{
-    background:#00FFFF;
+    background:  #ffffff;
     border-radius: 6px; 
     padding: 15px; 
     cursor: pointer; 
-    color: #000000; 
-    border: none; 
-    font-size: 16px; 
+    font-size: 20px; 
     margin-left: 15%; 
     margin-right: 15%;
+    margin-bottom: 75px;
+    box-shadow: 3px 3px #c5c5c5;
 }
-
-
-/* #0000FF */
+.painelLogin{
+    width: 30%;
+    margin: auto;
+}
+.nomes{
+    width: 30%;
+    margin: auto;
+}
