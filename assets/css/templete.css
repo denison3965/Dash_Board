@@ -344,6 +344,7 @@ footer .widget_body{
 	width: 80px;
 
 }
+
 }
 @media (max-width:675px){
 	.banner_headline h1{
@@ -428,6 +429,7 @@ nav ul{
 }
 }
 
+
 /*css feito por ana*/
 
 .pai{
@@ -457,6 +459,7 @@ nav ul{
 	padding: 10px;
 	border: 1px solid rgb(212, 212, 212);
 	border-radius: 5px;
+	min-width: 310px;
 }
 .pai3{
 	width: 100%;
@@ -472,6 +475,7 @@ nav ul{
 	border: 1px solid gray;
 	border-radius: 10px;
 	box-shadow: 2px 2px #c5c5c5;
+	min-width: 90px;
 
 }
 .monitoramento{
@@ -605,6 +609,7 @@ nav ul{
 	border-radius: 10px;
 	box-shadow: 3px 3px #c5c5c5;
 	margin-bottom: 50px;
+	min-width: 310px;
 
 }
 .adicionarPaciente{
