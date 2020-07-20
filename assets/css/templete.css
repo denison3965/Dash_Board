@@ -596,10 +596,24 @@ nav ul{
 	border-radius: 5px;
 }
 .saberMais{
-	background-color: tomato;
+	background-color: #FFFFFF;
 	width: 30%;
 	min-height: 100px;
-	margin: 10px;
+	padding: 5px;
+	display: flex;
+	border: 1px solid #0079C7;
+	border-radius: 10px;
+	box-shadow: 3px 3px #c5c5c5;
+	margin-bottom: 50px;
+
+}
+.adicionarPaciente{
+	width: 60%;
+	height: 40px;
+	font-size: 15px;
+	text-align: center;
+	margin-top: 20px;
+	
 }
 
 
