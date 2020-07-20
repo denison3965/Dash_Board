@@ -3,20 +3,8 @@
 	<head lang="pt-br">
 		<meta charset="UTF-8"/>
 		<meta name="viewport" content="width=device-width,user-scalabble=0" />
-
+		<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 		<link rel="stylesheet" type="text/css" href="assets/css/templete.css" />
-		<script type="text/javascript">
-			window.onload = function(){
-				document.querySelector(".menu_mobile").addEventListener("click", function() {
-					if(document.querySelector(".menu nan ul").style.display == 'flex') {
-						document.querySelector(".menu nav ul").style.display = 'none';
-					} else {
-						document.querySelector(".menu nav ul").style.display = 'flex';
-					}
-				});
-			};
-		</script>
-
 		<title>MediaCenter</title>
 	</head>
 	<body>
@@ -38,7 +26,8 @@
 							<li><a href="">HOME</a></li>
 							<li><a href="">HOME</a></li>
 							<li><a href="">HOME</a></li>
-							<li><a href="SubPaginas/Contato.html">Sobre</a></li>
+							<li><a href="SubPaginas/Contato.html">CONTATO</a></li>
+							<li><a href="">SOBRE</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -90,7 +79,7 @@
 			<div class="container pricipal">
 
 				<main>
-					
+					<canvas id="myChart"></canvas>
 				</main>
 				<aside>
 					<div class="widget">
@@ -199,19 +188,6 @@
 			   	</div>
 			</div>
 		</footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		<script src="assets/script/script.js"></script>
 	</body>
 </html>

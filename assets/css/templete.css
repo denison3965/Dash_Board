@@ -2,6 +2,7 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family:Arial;
+	background-color: #F2F2F2;
 }
 header{
 	display:flex;
@@ -424,7 +425,8 @@ nav ul{
 .logo{
 	margin-left:20px;
 }
+
+
+
+
 }
-
-
-/*Contato*/
