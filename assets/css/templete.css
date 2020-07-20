@@ -9,6 +9,7 @@ header{
 	flex-direction: row;
 	justify-content: center;
 	height:120px;
+	background-color: #FFFFFF;
 }
 .container{
 	display:flex;
@@ -425,4 +426,8 @@ nav ul{
 .logo{
 	margin-left:20px;
 }
+
+
+
+
 }
