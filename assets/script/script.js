@@ -368,17 +368,25 @@ function criarDadosDoPaciente (nome, dado)
 
 }
 
-let dados = []
-let nome_paciente =  "Fernando"
+
+let nome_paciente =  document.getElementById("nome_do_paciente").innerHTML
 
 dados_temp = criarDadosDoPaciente(nome_paciente, 2)
+dados_temp_quarto = criarDadosDoPaciente(nome_paciente, 1)
+dados_freq_cardiaca = criarDadosDoPaciente(nome_paciente, 3)
+dados_nivel_oxigenio = criarDadosDoPaciente(nome_paciente, 4)
+dados_pres_arterial = criarDadosDoPaciente(nome_paciente, 5)
 dados_datas = criarDadosDoPaciente(nome_paciente, 6)
 
-CriarGraficos(nome_paciente, dados_datas, dados_temp)
+CriarGraficos("Temperatura do Quarto", dados_datas, dados_temp_quarto, "grafico_do_paciente1")
+CriarGraficos("Temperatura do Paciênte", dados_datas, dados_temp, "grafico_do_paciente2")
+CriarGraficos("Frequência Cardiaca", dados_datas, dados_freq_cardiaca, "grafico_do_paciente3")
+CriarGraficos("Nivel de Oxigenio", dados_datas, dados_nivel_oxigenio, "grafico_do_paciente4")
+CriarGraficos("Pressão Arterial", dados_datas, dados_pres_arterial, "grafico_do_paciente5")
 
-function CriarGraficos(nome_paciente, data, dados_do_grafico) 
+function CriarGraficos(nome_paciente, data, dados_do_grafico, nome_do_grafico) 
 {
-    var ctx = document.getElementById('myChart').getContext('2d');
+    var ctx = document.getElementById(nome_do_grafico).getContext('2d');
     var chart = new Chart(ctx, {
         // The type of chart we want to create
         type: 'bar',
