@@ -426,8 +426,141 @@ nav ul{
 .logo{
 	margin-left:20px;
 }
-
-
-
-
 }
+
+/*css feito por ana*/
+
+.pai{
+	width: 100%;
+}
+.pacientes{
+	width: 30%;
+	margin-left: 100px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 25px;
+}
+.pai2{
+	width: 85%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+.informacoes_paciente{
+	background-color: peru;
+	width: 48%;
+	margin-top: 20px;
+	margin-right: 15px;
+	min-height: 250px;
+	margin-bottom: 14px;
+}
+.pai3{
+	background-color: tomato;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.imgdopaciente{
+	background-color: teal;
+	width: 25%;
+	height: 80px;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding: 15px;
+}
+.monitoramento{
+	background-color: yellow;
+	width: 30%;
+	min-height: 25px;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+.dadosPessoais{
+	width: 100%;
+	margin-top: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.nomeDoPaciente{
+	width: 55%;
+	min-height: 25px;
+	margin-top: 5px;
+	font-size: 15px;
+}
+.idade{
+	width: 45%;
+	min-height: 25px;
+	margin-top: 5px;
+	font-size: 15px;
+	text-align: center;
+}
+.RG{
+	width: 65%;
+	min-height: 25px;
+	margin-top: 5px;
+	font-size: 15px;
+}
+.cor{
+	width: 35%;
+	min-height: 25px;
+	margin-top: 5px;
+	font-size: 15px;
+	text-align: center;
+}
+.Telefone{
+	width: 50%;
+	min-height: 25px;
+	margin-top: 5px;
+	font-size: 15px;
+}
+.sexo{
+	width: 50%;
+	min-height: 25px;
+	margin-top: 5px;
+	font-size: 15px;
+	text-align: center;
+}
+.nivel_gravidade{
+	width: 100%;
+	height: 50px;
+	margin-top: 5px;
+	display: flex;
+	align-items: flex-end;
+}
+.gravidade{
+	width: 30%;
+	height: 30px;
+	margin-left: 5px;
+	font-size: 15px;
+	text-align: center;
+    line-height: 30px;
+}
+.verde{
+	background-color: #00A400;
+	width: 10%;
+	height: 10px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+.amarelo{
+	background-color: #FFFF08;
+	width: 10%;
+	height: 10px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+.vermelho{
+	background-color: #FE0000;
+	width: 10%;
+	height: 10px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+.saberMais{
+	background-color: tomato;
+	width: 30%;
+	min-height: 100px;
+	margin: 10px;
+}
+
