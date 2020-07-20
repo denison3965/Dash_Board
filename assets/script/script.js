@@ -378,26 +378,26 @@ dados_nivel_oxigenio = criarDadosDoPaciente(nome_paciente, 4)
 dados_pres_arterial = criarDadosDoPaciente(nome_paciente, 5)
 dados_datas = criarDadosDoPaciente(nome_paciente, 6)
 
-CriarGraficos("Temperatura do Quarto", dados_datas, dados_temp_quarto, "grafico_do_paciente1")
-CriarGraficos("Temperatura do Paciênte", dados_datas, dados_temp, "grafico_do_paciente2")
-CriarGraficos("Frequência Cardiaca", dados_datas, dados_freq_cardiaca, "grafico_do_paciente3")
-CriarGraficos("Nivel de Oxigenio", dados_datas, dados_nivel_oxigenio, "grafico_do_paciente4")
-CriarGraficos("Pressão Arterial", dados_datas, dados_pres_arterial, "grafico_do_paciente5")
+CriarGraficos("Temperatura do Quarto", dados_datas, dados_temp_quarto, "grafico_do_paciente1","line",'#85c1e9',' #17202a')
+CriarGraficos("Temperatura do Paciênte", dados_datas, dados_temp, "grafico_do_paciente2", "bar", '#27ae60', ' #17202a' )
+CriarGraficos("Frequência Cardiaca", dados_datas, dados_freq_cardiaca, "grafico_do_paciente3","line",'','#43ADAD')
+CriarGraficos("Nivel de Oxigenio", dados_datas, dados_nivel_oxigenio, "grafico_do_paciente4","bar",'#FF0000','#0000FF')
+CriarGraficos("Pressão Arterial", dados_datas, dados_pres_arterial, "grafico_do_paciente5","horizontalBar",'#EBE0FF','#9966FF')
 
-function CriarGraficos(nome_paciente, data, dados_do_grafico, nome_do_grafico) 
+function CriarGraficos(nome_paciente, data, dados_do_grafico, nome_do_grafico,tipo_do_grafico,cor,corborda) 
 {
     var ctx = document.getElementById(nome_do_grafico).getContext('2d');
     var chart = new Chart(ctx, {
         // The type of chart we want to create
-        type: 'bar',
+        type: tipo_do_grafico,
     
         // The data for our dataset
         data: {
             labels: data,
             datasets: [{
                 label: nome_paciente,
-                backgroundColor: 'rgb(255, 99, 132)',
-                borderColor: 'rgb(255, 99, 132)',
+                backgroundColor: cor,
+                borderColor: corborda,
                 data: dados_do_grafico
             }]
         },
