@@ -2,3 +2,62 @@
     text-align: center;
     /* background-color: #e2e2e2; */
 }
+#sobre_deni{
+    background: #B0E0E6; 
+    border-radius: 6px; 
+    padding: 15px; 
+    color: rgb(8, 8, 8); 
+    border: none; 
+    font-size: 16px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#sobre_anna{
+    background: #FFC0CB;
+     border-radius: 6px; 
+     padding: 15px; 
+     cursor: pointer; 
+     color: #000000; 
+     border: none; 
+     font-size: 16px; 
+     margin-left: 15%; 
+     margin-right: 15%;
+}
+
+#sobre_felipe{    
+    background:#5F9EA0;
+    border-radius: 6px; 
+    padding: 15px; 
+    cursor: pointer; 
+    color: #000000; 
+    border: none; 
+    font-size: 16px; 
+    margin-left: 15%; 
+    margin-right: 15%;
+}
+#sobre_gui{
+    background: #F5DEB3;
+    border-radius: 6px; 
+    padding: 15px; 
+    cursor: pointer; 
+    color: #000000; 
+    border: none; 
+    font-size: 16px; 
+    margin-left: 15%; 
+    margin-right: 15%;
+}
+#sobre_caio{
+    background:#00FFFF;
+    border-radius: 6px; 
+    padding: 15px; 
+    cursor: pointer; 
+    color: #000000; 
+    border: none; 
+    font-size: 16px; 
+    margin-left: 15%; 
+    margin-right: 15%;
+}
+
+
+/* #0000FF */
